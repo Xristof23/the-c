@@ -27,7 +27,7 @@ export default function HomePage() {
       </StandardParagraph>
       <Headline1>About the music</Headline1>
       <StandardParagraph>
-        After all the pseudo philosophical gibberish in the paragraph above, here is some more down to earth information about the projects style. <br />
+        After all the pseudo philosophical gibberish in the paragraph above, here is some more down to earth information about the project&apos;s style. <br />
         There are guitars, they are overdriven, distorted or fuzzy, seldom clean, there is bass, sometimes clean, there are drums, sometimes other instruments. <br />
         There&apos;s a voice, it is mostly emotional and some would call the style authentic but that&apos;s a difficult word for me.
         The voice talks about dark themes like braking relationships, everyday frustration,

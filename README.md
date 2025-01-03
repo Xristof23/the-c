@@ -1,4 +1,7 @@
-# New Next Project
+# The C
+
+Musical prpoject
+## 
 
 ### Local Development
 

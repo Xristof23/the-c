@@ -1,3 +1,5 @@
+
+import Header from "@/components/Header";
 import { Headline1, StandardParagraph } from "@/sharedStyledComponents";
 import styled from "styled-components";
 
@@ -6,16 +8,27 @@ const MainSection = styled.section`
 background-color: black;
 `;
 
+function TestHeader() {
+  return (
+  <StandardParagraph>This is the TestHeader </StandardParagraph>)
+}
+
+
 export default function HomePage() {
   return (
+    <>
+      <Header />
+      {/* <TestHeader></TestHeader> */}
     <MainSection>
       <Headline1>The C</Headline1>
       <StandardParagraph>
-        Everything is about life. Everything is about Death. She defines how we live. At first sight She can only destroy. <br/>
+          Everything is about life. Everything is about Death. She defines how we live. At first sight She can only destroy.
+        </StandardParagraph>
+        <StandardParagraph>
         Yes, She can not create life or can She? In nature, every death is another beginning. Some mushrooms only grow from charred tree trunks,
         worms will feed on my cold dead body some (hopefully still very distant) day. <br />
         Creating art is a way to respect death while defying Her.
-        Actually it might one of the very few ways to do that, and the only way which is under your personal control.<br/>
+        Actually it might be one of the very few ways to do that, and the only way which is under your personal control.<br/>
         After thousands of years people still read Homer, people making movies - right now, the oddysey is in the making directed bei Christopher Nolan. 
         Homer&apos;s impact may be not as huge as it used to be ... but hey, if millions are invested in a movie about a story
         that&apos;s more than 2500 years old -  it is still very big.
@@ -39,6 +52,7 @@ export default function HomePage() {
         
     
       </StandardParagraph>
-    </MainSection>
+      </MainSection>
+    </>
   );
 }

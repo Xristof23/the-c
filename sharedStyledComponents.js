@@ -3,10 +3,10 @@ import styled from "styled-components";
 //Buttons
 const ButtonContainer = styled.div`
   display: flex;
-  gap: .4rem;
+  gap: 1rem;
   flex-direction: row;
   min-height: fit-content;
-  width: 100%;
+  width: 30%;
   align-content: center;
   align-items: flex-start;
   border-radius: 4px;
@@ -19,7 +19,7 @@ font-weight: 400;
 flex-grow: 1;
 margin: .1rem 0 .1rem 0;
 padding: 0.3rem;
-width: ${({ $width }) => $width? `${$width}px` : "2.5rem"};
+width: ${({ $width }) => $width? `${$width}px` : "2rem"};
 min-width: fit-content;
 height: 1.8rem;
 border-radius: 4px;

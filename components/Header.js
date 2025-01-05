@@ -18,8 +18,8 @@ export default function Header() {
       <figure>
         <figcaption>Listen to The C</figcaption>
         <FlexRowWrapper>
-          <audio controls src="/public/tracks/SimpleSongPart.mp3"></audio>
-          {/* <a href="/sounds/t-rex-roar.mp3"> Download audio </a> */}
+          <audio controls src="/public/tracks/simplesongpart.mp3" type="audio/mpeg"></audio>
+          <a href={"/public/tracks/SimpleSongPart.mp3"}> Download audio </a>
         </FlexRowWrapper>
       </figure>
     </FlexRowWrapper>

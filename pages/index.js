@@ -1,27 +1,21 @@
 
+import EarlyAccess from "@/components/EarlyAccess";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Headline1, StandardParagraph } from "@/sharedStyledComponents";
 import styled from "styled-components";
-
 
 const MainSection = styled.section`
 background-color: black;
 `;
 
-function TestHeader() {
-  return (
-  <StandardParagraph>This is the TestHeader </StandardParagraph>)
-}
-
-
 export default function HomePage() {
   return (
     <>
-      <Header />
-      {/* <TestHeader></TestHeader> */}
-    <MainSection>
-      <Headline1>The C</Headline1>
-      <StandardParagraph>
+      <Header />    
+      <MainSection>
+        <Headline1>The C</Headline1>
+        <StandardParagraph>
           Everything is about life. Everything is about Death. She defines how we live. At first sight She can only destroy.
         </StandardParagraph>
         <StandardParagraph>
@@ -35,9 +29,7 @@ export default function HomePage() {
         The C will never rival the great poets, but The C creates musical art to persist in the memories of people listing to the music - at least that ist the goal.
         If only a few or hundreds or thousands will listen and remember does not matter that much ... better to leave a piece that a few hold dear than something forgettable known by the masses for a short time. <br />
         So The C craves a glimpse of eternity like so many other human beings do.
-
-
-      </StandardParagraph>
+        </StandardParagraph>
       <Headline1>About the music</Headline1>
       <StandardParagraph>
         After all the pseudo philosophical gibberish in the paragraph above, here is some more down to earth information about the project&apos;s style. <br />
@@ -51,8 +43,10 @@ export default function HomePage() {
         The C is a musical child of the 90s return to rock (called grunge at the time), but attempts to create a kind of present and timeless musical style .<br />
         
     
-      </StandardParagraph>
+        </StandardParagraph>
+        <EarlyAccess/>
       </MainSection>
+      <Footer/>
     </>
   );
 }

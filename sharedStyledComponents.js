@@ -32,7 +32,7 @@ background-color: #fffffc;
 const StandardParagraph = styled.p`
 color: #fffffc;
 font-size: 1rem;
-width: 80%;
+width: 88%;
 margin: .4rem;
 padding: .4rem;
 
@@ -75,15 +75,15 @@ const StandardLabel = styled.label`
  text-align: left;   
  font-size: 0.95rem;
   width: 100%;
-  margin: 0;
-  padding: .3rem .3rem .3rem 0;
+  margin:.4rem;
+  padding: .4rem;
 `;
 
 const StyledNrInput = styled.input`
   font-size: 0.8rem;
   width: 4rem;
-  margin: 0.2rem;
-  padding: .2rem;
+  margin: .4rem;
+  padding: .4rem;
   border-radius: 4px;
 `;
 
